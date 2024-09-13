@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-petadoptionsystem-dev-4d208-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725484372:role/amplify-petadoptionsystem-dev-4d208-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725484372:role/amplify-petadoptionsystem-dev-4d208-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-petadoptionsystem-dev-4d208-deployment",
+      "UnauthRoleName": "amplify-petadoptionsystem-dev-4d208-unauthRole",
+      "StackName": "amplify-petadoptionsystem-dev-4d208",
+      "StackId": "arn:aws:cloudformation:ap-south-1:851725484372:stack/amplify-petadoptionsystem-dev-4d208/755fc6f0-6568-11ef-b35b-068b180f1d53",
+      "AmplifyAppId": "d286lzwwtdwljd"
+    },
+    "categories": {
+      "function": {
+        "petadoptionsystem818bdccd": {
+          "deploymentBucketName": "amplify-petadoptionsystem-dev-4d208-deployment",
+          "s3Key": "amplify-builds/petadoptionsystem818bdccd-7476624d6a7946574b75-build.zip"
+        }
+      },
+      "api": {
+        "api4e88d9a0": {}
+      }
+    }
+  }
+}

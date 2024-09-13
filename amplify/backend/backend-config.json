@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api4e88d9a0": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "petadoptionsystem818bdccd"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "petadoptionsystem818bdccd": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_petadoptionsystem818bdccd_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "petadoptionsystem818bdccd"
+        }
+      ]
+    },
+    "AMPLIFY_function_petadoptionsystem818bdccd_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "petadoptionsystem818bdccd"
+        }
+      ]
+    }
+  }
+}
