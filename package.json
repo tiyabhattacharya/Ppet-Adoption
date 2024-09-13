@@ -9,7 +9,7 @@
     "entry": "app/index.js",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "build": "expo build:web"
+    "build": "npx expo export:web"
   },
   "jest": {
     "preset": "jest-expo"
